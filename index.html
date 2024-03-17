@@ -12,7 +12,6 @@
       <div class="logo">Alan Khant</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -28,7 +27,6 @@
           <span></span>
         </div>
         <div class="hamburger-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -70,7 +68,256 @@
         </div>
       </div>
     </section>
-    <section id="experience"></section>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="timeline">
+        <div class="event">
+          <p class="role">Software Developer @ Implant Ninja</p>
+          <br />
+          <p class="date">June 2023 - Dec 2023</p>
+          <br />
+          <p class="description">
+            • Implemented a complete VR Experience using the Oculus Integration
+            SDK and Unity for the Quest 2 which assists user in placing implants
+            with precise visual indicators and haptic feedback.<br />• Developed
+            an AR Android App which uses optical object detection via Vuforia to
+            detect and display more information about dental tools.
+          </p>
+        </div>
+        <div class="event">
+          <p class="role">VR Research Assistant @ University of the Pacific</p>
+          <br />
+          <p class="date">January 2023 - May 2023</p>
+          <br />
+          <p class="description">
+            • Programmed a VR campus exploration experience using Unity for
+            integration and Blender for 3D modelling, enhanced with the
+            Infinadeck Omnidirectional Treadmill for realistic movement. The
+            tech stack involves Unity, C#, Blender, and Infinideck Plugins.
+          </p>
+        </div>
+        <div class="event">
+          <p class="role">Engineering Intern @ Delicato Family Wines</p>
+          <br />
+          <p class="date">May 2022 - December 2022</p>
+          <br />
+          <p class="description">
+            • Leads Agile Engineering Projects including the optimization of a
+            CIP room’s insulation, lowering the expenses by $10,000 per year
+            after insulating the hot water exchange loop. Additionally, oversees
+            Grape Scale Research to streamline costs and traffic flow by
+            revamping truck routing and protocols during the off-season.
+          </p>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="skill-box">
+          <h2>Programming Languages</h2>
+          <br />
+          <div class="article-container">
+            <article>
+              <h3>C++</h3>
+            </article>
+            <article>
+              <h3>C</h3>
+            </article>
+            <article>
+              <h3>Python</h3>
+            </article>
+            <article>
+              <h3>Haskell</h3>
+            </article>
+            <article>
+              <h3>Java</h3>
+            </article>
+            <article>
+              <h3>SQL</h3>
+            </article>
+            <article>
+              <h3>R</h3>
+            </article>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Web Development</h2>
+          <br />
+          <div class="article-container">
+            <article>
+              <h3>HTML/CSS</h3>
+            </article>
+            <article>
+              <h3>JavaScript</h3>
+            </article>
+            <article>
+              <h3>React</h3>
+            </article>
+            <article>
+              <h3>Node.js</h3>
+            </article>
+            <article>
+              <h3>Redux</h3>
+            </article>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Operating Systems</h2>
+          <br />
+          <div class="article-container">
+            <article>
+              <h3>Linux</h3>
+            </article>
+            <article>
+              <h3>Windows</h3>
+            </article>
+            <article>
+              <h3>Mac OS</h3>
+            </article>
+          </div>
+        </div>
+        <div class="skill-box">
+          <h2>Development Tools</h2>
+          <br />
+          <div class="article-container">
+            <article>
+              <h3>Git</h3>
+            </article>
+            <article>
+              <h3>GitHub</h3>
+            </article>
+            <article>
+              <h3>Visual Studio Code</h3>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="all-projects">
+        <div class="single-project wobbly">
+          <h2>VR Dental Precision Implant</h2>
+          <div class="project-pic">
+            <div class="image-container">
+              <img src="assets/VR Experiencec.png" />
+            </div>
+            <div class="text-container">
+              Created an AR mobile application that identifies and displays a
+              detailed information about various tools in dental surgery kit.
+              Utilizing the Vuforia Engine with Unity with C#, this app provides
+              the contextual information to assist dental professionals
+            </div>
+          </div>
+        </div>
+        <div class="single-project wobbly">
+          <h2>AR Box</h2>
+          <div class="project-pic">
+            <div class="image-container">
+              <img src="assets/AR Box.jpg" />
+            </div>
+            <div class="text-container">
+              Created an AR mobile application that identifies and displays a
+              detailed information about various tools in dental surgery kit.
+              Utilizing the Vuforia Engine with Unity with C#, this app provides
+              the contextual information to assist dental professionals
+            </div>
+          </div>
+        </div>
+        <div class="single-project wobbly">
+          <h2>UOP Walk</h2>
+          <div class="project-pic">
+            <div class="img-container">
+              <img src="assets/UOP Walk.png" />
+            </div>
+            <div class="text-container">
+              Engineered a real-time navigation app that furnishes users with
+              detailed information about university buildings and monuments as
+              they traverse the campus. It is implemented using Java, and Google
+              Maps SDK in Android Studio offering an informative wayfinding
+              solution.
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 git-btn"
+                  onclick="location.href='https://github.com/comp195/senior-project-spring-2023-walking-tour'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="single-project wobbly">
+          <h2>Simple Language Interpreter</h2>
+          <div class="project-pic">
+            <div class="img-container">
+              <img src="assets/Interpreter.png" />
+            </div>
+            <div class="text-container">
+              Designed and programmed an interpreter for a small imperative
+              language, capable of scanning, parsing, and evaluating user
+              inputs. This project, developed in Python, involved the use of
+              regular expressions, complex function implementations and advanced
+              data structures to process and execute commands.
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 git-btn"
+                  onclick="location.href='https://github.com/Alan007-hub/Interpreter'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="single-project wobbly">
+          <h2>Tic Tac Toe</h2>
+          <div class="project-pic">
+            <div class="img-container">
+              <img src="assets/TicTacToe.png" />
+            </div>
+            <div class="text-container">
+              Programmed a versatile Tic Tac Toe game in C++ featuring both
+              single-player and multiplayer modes in user-friendly console
+              interface and incorporating robust game logic to ensure a dynamic
+              and enjoyable gaming experience.
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 git-btn"
+                  onclick="location.href='https://github.com/Alan007-hub/TicTacToe'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="a_khant@u.pacific.edu">a_khant@u.pacific.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/aung-kaung-khant-excited-to-create/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
     <script src="script.js "></script>
   </body>
 </html>
